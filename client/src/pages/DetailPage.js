@@ -29,8 +29,8 @@ export const DetailPage = () => {
   }
 
   return (
-    <div>
+    <>
       { !loading && link && <LinkCard link={link} />}
-    </div>
+    </>
   )
 };
